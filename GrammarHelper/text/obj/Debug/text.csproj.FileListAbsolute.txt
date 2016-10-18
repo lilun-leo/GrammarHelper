@@ -1,0 +1,17 @@
+E:\代码库\GrammarHelper\text\bin\text.dll.config
+E:\代码库\GrammarHelper\text\bin\text.dll
+E:\代码库\GrammarHelper\text\bin\text.pdb
+E:\代码库\GrammarHelper\text\bin\GrammarHelper.dll
+E:\代码库\GrammarHelper\text\bin\GrammarHelper.pdb
+E:\代码库\GrammarHelper\text\obj\Debug\text.csprojResolveAssemblyReference.cache
+E:\代码库\GrammarHelper\text\obj\Debug\text.dll
+E:\代码库\GrammarHelper\text\obj\Debug\text.pdb
+F:\程序\GrammarHelper\GrammarHelper\text\bin\text.dll.config
+F:\程序\GrammarHelper\GrammarHelper\text\bin\text.dll
+F:\程序\GrammarHelper\GrammarHelper\text\bin\text.pdb
+F:\程序\GrammarHelper\GrammarHelper\text\bin\GrammarHelper.dll
+F:\程序\GrammarHelper\GrammarHelper\text\bin\GrammarHelper.pdb
+F:\程序\GrammarHelper\GrammarHelper\text\obj\Debug\text.csprojResolveAssemblyReference.cache
+F:\程序\GrammarHelper\GrammarHelper\text\obj\Debug\text.dll
+F:\程序\GrammarHelper\GrammarHelper\text\obj\Debug\text.pdb
+F:\程序\GrammarHelper\GrammarHelper\text\bin\Newtonsoft.Json.dll
