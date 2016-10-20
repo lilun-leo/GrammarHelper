@@ -12,7 +12,7 @@ namespace GrammarHelper
     public static class RequestToModel
     {
 
-        /// <summary>
+        /// <summary> 
         /// 提交表单通过反射获取单个像
         /// 注意：表单控件name必包含对应类中的第一个字段，否则将报错
         /// </summary>
