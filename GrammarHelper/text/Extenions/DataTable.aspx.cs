@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using GrammarHelper;
-
+using System.Data;
 namespace text.Extenions
 {
     public partial class DataTable : System.Web.UI.Page
@@ -59,8 +59,10 @@ namespace text.Extenions
             var stringApp = stringa.AppendString("edf", ":");
             //string stringa = null;
             // var stringApp = stringa.AppendString("edf",":",false);  结果 edf
-
-           
+            
+            //list 直接转换为Datatable
+            List<a> list = new List<a>();
+            System.Data.DataTable dt3 = DataTableHelper.ToDataTable(list, rec => new object[] { list });
 
         }
         public class a

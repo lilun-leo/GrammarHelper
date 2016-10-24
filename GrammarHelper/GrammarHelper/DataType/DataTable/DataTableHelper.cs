@@ -12,6 +12,46 @@ namespace GrammarHelper
     /// </summary>
     public static class DataTableHelper
     {
+
+        /// <summary>
+        /// List 转换成Datatable
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="t"></param>
+        /// <returns></returns>
+        public delegate object[] CreateRowDelegate<T>(T t);
+        static public DataTable ToDataTable<T>(this IEnumerable<T> varlist, CreateRowDelegate<T> fn)
+        {
+            DataTable dtReturn = new DataTable();
+            PropertyInfo[] oProps = null;
+            foreach (T c in varlist)
+            {
+                // Use reflection to get property names, to create table, Only first time, others will follow
+                if (oProps == null)
+                {
+                    oProps = ((Type)c.GetType()).GetProperties();
+                    foreach (PropertyInfo pi in oProps)
+                    {
+                        Type colType = pi.PropertyType;
+                        if ((colType.IsGenericType) && (colType.GetGenericTypeDefinition() == typeof(Nullable<>)))
+                        {
+                            colType = colType.GetGenericArguments()[0];
+                        }
+
+                        dtReturn.Columns.Add(new DataColumn(pi.Name, colType));
+                    }
+                }
+                DataRow dr = dtReturn.NewRow();
+                foreach (PropertyInfo pi in oProps)
+                {
+                    dr[pi.Name] = pi.GetValue(c, null) == null ? DBNull.Value : pi.GetValue(c, null);
+                }
+                dtReturn.Rows.Add(dr);
+            }
+
+            return (dtReturn);
+
+        }
         /// <summary>
         /// 创建简单的dataTable
         /// </summary>
