@@ -55,7 +55,7 @@ namespace text.Extenions
             string text = "\r\n11cc\r<p>\taaa\r ";
             var ccc= text.ToHtmlByText();
             //追加字符串
-            string stringa = "abc";
+            string stringa = "abc"; 
             var stringApp = stringa.AppendString("edf", ":");
             //string stringa = null;
             // var stringApp = stringa.AppendString("edf",":",false);  结果 edf
