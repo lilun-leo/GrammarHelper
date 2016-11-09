@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+       <input  value=""  renat="server"/>
     </div>
     </form>
 </body>

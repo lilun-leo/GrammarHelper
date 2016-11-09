@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Convert\ConvertJson.cs" />
     <Compile Include="Json\JsonConverter.cs" />
     <Compile Include="Convert\TypeTryParse.cs" />
     <Compile Include="DataType\DataTable\DataTableExtensions.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="IO\FileHelper.cs" />
     <Compile Include="DataType\StringType\StringHelper.cs" />
     <Compile Include="Json\JsonHelper.cs" />
+    <Compile Include="OthersExtenions\IsWhatExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
