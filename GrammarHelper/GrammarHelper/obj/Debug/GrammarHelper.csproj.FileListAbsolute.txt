@@ -9,3 +9,9 @@ F:\程序\GrammarHelper\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.cspr
 F:\程序\GrammarHelper\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.dll
 F:\程序\GrammarHelper\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.pdb
 F:\程序\GrammarHelper\GrammarHelper\GrammarHelper\bin\Debug\Newtonsoft.Json.dll
+E:\leo\自学\Code\GrammarHelper\GrammarHelper\bin\Debug\GrammarHelper.dll
+E:\leo\自学\Code\GrammarHelper\GrammarHelper\bin\Debug\GrammarHelper.pdb
+E:\leo\自学\Code\GrammarHelper\GrammarHelper\bin\Debug\Newtonsoft.Json.dll
+E:\leo\自学\Code\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.csprojResolveAssemblyReference.cache
+E:\leo\自学\Code\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.dll
+E:\leo\自学\Code\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.pdb

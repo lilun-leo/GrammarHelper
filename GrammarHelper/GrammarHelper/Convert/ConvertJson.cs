@@ -32,7 +32,7 @@ namespace GrammarHelper
             }
             else if (type == typeof(string))
             {
-                str = String2Json(str);
+                str = StringfilterJson(str);
                 str = "\"" + str + "\"";
             }
             else if (type == typeof(DateTime))
@@ -60,7 +60,7 @@ namespace GrammarHelper
         /// </summary>  
         /// <param name="s"></param>  
         /// <returns></returns>  
-        public static string String2Json(String s)
+        public static string StringfilterJson(String s)
         {
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < s.Length; i++)

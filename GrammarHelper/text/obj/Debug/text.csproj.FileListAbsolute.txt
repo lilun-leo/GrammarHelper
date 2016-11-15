@@ -15,3 +15,12 @@ F:\程序\GrammarHelper\GrammarHelper\text\obj\Debug\text.csprojResolveAssemblyR
 F:\程序\GrammarHelper\GrammarHelper\text\obj\Debug\text.dll
 F:\程序\GrammarHelper\GrammarHelper\text\obj\Debug\text.pdb
 F:\程序\GrammarHelper\GrammarHelper\text\bin\Newtonsoft.Json.dll
+E:\leo\自学\Code\GrammarHelper\text\bin\text.dll.config
+E:\leo\自学\Code\GrammarHelper\text\bin\text.dll
+E:\leo\自学\Code\GrammarHelper\text\bin\text.pdb
+E:\leo\自学\Code\GrammarHelper\text\bin\GrammarHelper.dll
+E:\leo\自学\Code\GrammarHelper\text\bin\Newtonsoft.Json.dll
+E:\leo\自学\Code\GrammarHelper\text\bin\GrammarHelper.pdb
+E:\leo\自学\Code\GrammarHelper\text\obj\Debug\text.csprojResolveAssemblyReference.cache
+E:\leo\自学\Code\GrammarHelper\text\obj\Debug\text.dll
+E:\leo\自学\Code\GrammarHelper\text\obj\Debug\text.pdb
