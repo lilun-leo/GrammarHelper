@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\..\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:\Users\Administrator\Desktop\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -49,6 +52,7 @@
     <Compile Include="Convert\ConvertJson.cs" />
     <Compile Include="Form\UploadFile.cs" />
     <Compile Include="Form\UploadImage.cs" />
+    <Compile Include="IO\ZipHelper.cs" />
     <Compile Include="Json\JsonConverter.cs" />
     <Compile Include="Convert\TypeTryParse.cs" />
     <Compile Include="DataType\DataTable\DataTableExtensions.cs" />
