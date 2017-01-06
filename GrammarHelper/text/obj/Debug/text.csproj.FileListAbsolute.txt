@@ -24,3 +24,4 @@ E:\leo\自学\Code\GrammarHelper\text\bin\GrammarHelper.pdb
 E:\leo\自学\Code\GrammarHelper\text\obj\Debug\text.csprojResolveAssemblyReference.cache
 E:\leo\自学\Code\GrammarHelper\text\obj\Debug\text.dll
 E:\leo\自学\Code\GrammarHelper\text\obj\Debug\text.pdb
+E:\leo\自学\Code\GrammarHelper\text\bin\ICSharpCode.SharpZipLib.dll

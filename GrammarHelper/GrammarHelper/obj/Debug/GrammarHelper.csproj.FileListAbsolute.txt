@@ -15,3 +15,4 @@ E:\leo\自学\Code\GrammarHelper\GrammarHelper\bin\Debug\Newtonsoft.Json.dll
 E:\leo\自学\Code\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.csprojResolveAssemblyReference.cache
 E:\leo\自学\Code\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.dll
 E:\leo\自学\Code\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.pdb
+E:\leo\自学\Code\GrammarHelper\GrammarHelper\bin\Debug\ICSharpCode.SharpZipLib.dll

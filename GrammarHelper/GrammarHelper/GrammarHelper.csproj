@@ -52,6 +52,7 @@
     <Compile Include="Convert\ConvertJson.cs" />
     <Compile Include="Form\UploadFile.cs" />
     <Compile Include="Form\UploadImage.cs" />
+    <Compile Include="IO\ValidateHelper.cs" />
     <Compile Include="IO\ZipHelper.cs" />
     <Compile Include="Json\JsonConverter.cs" />
     <Compile Include="Convert\TypeTryParse.cs" />

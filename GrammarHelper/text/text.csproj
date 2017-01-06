@@ -66,6 +66,8 @@
     <Content Include="Extenions\Json.aspx" />
     <Content Include="Extenions\TypeTryParse.aspx" />
     <Content Include="Form\RequeryToModeltext.aspx" />
+    <Content Include="IO\img.aspx" />
+    <Content Include="IO\ValidateCode.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -117,6 +119,20 @@
     </Compile>
     <Compile Include="Form\RequeryToModeltext.aspx.designer.cs">
       <DependentUpon>RequeryToModeltext.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IO\img.aspx.cs">
+      <DependentUpon>img.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IO\img.aspx.designer.cs">
+      <DependentUpon>img.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IO\ValidateCode.aspx.cs">
+      <DependentUpon>ValidateCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IO\ValidateCode.aspx.designer.cs">
+      <DependentUpon>ValidateCode.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
