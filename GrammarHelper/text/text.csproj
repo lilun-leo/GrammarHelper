@@ -66,9 +66,17 @@
     <Content Include="Extenions\Json.aspx" />
     <Content Include="Extenions\TypeTryParse.aspx" />
     <Content Include="Form\RequeryToModeltext.aspx" />
+    <Content Include="Form\UploadFileTest.aspx" />
+    <Content Include="Form\UploadImageTest.aspx" />
+    <Content Include="IO\ClassGenerating.aspx" />
     <Content Include="IO\img.aspx" />
     <Content Include="IO\ValidateCode.aspx" />
+    <Content Include="Security\CenerateRandomStringTest.aspx" />
+    <Content Include="Security\EncryptSugarTest.aspx" />
+    <Content Include="Test\Test.aspx" />
+    <Content Include="UI\PageString.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Work\mail.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extenions\DataTable.aspx.cs">
@@ -120,6 +128,27 @@
     <Compile Include="Form\RequeryToModeltext.aspx.designer.cs">
       <DependentUpon>RequeryToModeltext.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Form\UploadFileTest.aspx.cs">
+      <DependentUpon>UploadFileTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\UploadFileTest.aspx.designer.cs">
+      <DependentUpon>UploadFileTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\UploadImageTest.aspx.cs">
+      <DependentUpon>UploadImageTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form\UploadImageTest.aspx.designer.cs">
+      <DependentUpon>UploadImageTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IO\ClassGenerating.aspx.cs">
+      <DependentUpon>ClassGenerating.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IO\ClassGenerating.aspx.designer.cs">
+      <DependentUpon>ClassGenerating.aspx</DependentUpon>
+    </Compile>
     <Compile Include="IO\img.aspx.cs">
       <DependentUpon>img.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -135,6 +164,41 @@
       <DependentUpon>ValidateCode.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\CenerateRandomStringTest.aspx.cs">
+      <DependentUpon>CenerateRandomStringTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Security\CenerateRandomStringTest.aspx.designer.cs">
+      <DependentUpon>CenerateRandomStringTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Security\EncryptSugarTest.aspx.cs">
+      <DependentUpon>EncryptSugarTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Security\EncryptSugarTest.aspx.designer.cs">
+      <DependentUpon>EncryptSugarTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PageString.aspx.cs">
+      <DependentUpon>PageString.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\PageString.aspx.designer.cs">
+      <DependentUpon>PageString.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Work\mail.aspx.cs">
+      <DependentUpon>mail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Work\mail.aspx.designer.cs">
+      <DependentUpon>mail.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">

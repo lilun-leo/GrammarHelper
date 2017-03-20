@@ -9,7 +9,6 @@ namespace GrammarHelper
     /// <summary>
     /// ** 描述：html解析类
     /// ** 作者：lilun
-    /// ** 使用说明:http://www.cnblogs.com/sunkaixuan/p/4482121.html
     /// </summary>
     public class XHtmlElement
     {

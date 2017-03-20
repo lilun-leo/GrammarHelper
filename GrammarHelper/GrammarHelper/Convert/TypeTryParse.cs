@@ -25,7 +25,7 @@ namespace GrammarHelper
         /// </summary>
         /// <param name="thisValue"></param>
         /// <returns></returns>
-        public static bool ConvertToBoolean(this object thisValue)
+        public static bool TryToBoolean(this object thisValue)
         {
             bool result = false;
             if (thisValue != null && Boolean.TryParse(thisValue.ToString(), out result))
@@ -43,7 +43,7 @@ namespace GrammarHelper
         /// </summary>
         /// <param name="thisValue"></param>
         /// <returns></returns>
-        public static int ConvertToInt(this object thisValue)
+        public static int TryToInt(this object thisValue)
         {
             int result = 0;
             if (thisValue != null && int.TryParse(thisValue.ToString(), out result))
@@ -64,7 +64,7 @@ namespace GrammarHelper
         /// <param name="thisValue">值</param>
         /// <param name="errorValue">自定义错误返回的值</param>
         /// <returns></returns>
-        public static int ConvertToInt(this object thisValue, int errorValue)
+        public static int TryToInt(this object thisValue, int errorValue)
         {
             int result = 0;
             if (thisValue != null && int.TryParse(thisValue.ToString(), out result))
@@ -82,7 +82,7 @@ namespace GrammarHelper
         /// </summary>
         /// <param name="thisValue"></param>
         /// <returns></returns>
-        public static double ConvertToDouble(this object thisValue)
+        public static double TryToDouble(this object thisValue)
         {
             double result = 0;
             if (thisValue != null && double.TryParse(thisValue.ToString(), out result))
@@ -101,7 +101,7 @@ namespace GrammarHelper
         /// <param name="thisValue">值</param>
         /// <param name="errorValue">自定义错误返回的值</param>
         /// <returns></returns>
-        public static double ConvertToDouble(this object thisValue, double errorValue)
+        public static double TryToDouble(this object thisValue, double errorValue)
         {
             double result = 0;
             if (thisValue != null && double.TryParse(thisValue.ToString(), out result))
@@ -119,7 +119,7 @@ namespace GrammarHelper
         /// </summary>
         /// <param name="thisValue"></param>
         /// <returns></returns>
-        public static string ConvertToString(this object thisValue)
+        public static string TryToString(this object thisValue)
         {
             if (thisValue != null) return thisValue.ToString().Trim();
             return "";
@@ -134,7 +134,7 @@ namespace GrammarHelper
         /// <param name="thisValue"></param>
         /// <param name="errorValue">自定义错误返回的值</param>
         /// <returns></returns>
-        public static string ConvertToString(this object thisValue, string errorValue)
+        public static string TryToString(this object thisValue, string errorValue)
         {
             if (thisValue != null)
             {
@@ -150,7 +150,7 @@ namespace GrammarHelper
         /// </summary>
         /// <param name="thisValue"></param>
         /// <returns></returns>
-        public static decimal ConvertToDecimal(this object thisValue)
+        public static decimal TryToDecimal(this object thisValue)
         {
             decimal result = 0;
             if (thisValue != null && decimal.TryParse(thisValue.ToString(), out result))
@@ -168,7 +168,7 @@ namespace GrammarHelper
         /// <param name="thisValue"></param>
         /// <param name="errorValue">自定义错误返回的值</param>
         /// <returns></returns>
-        public static decimal ConvertToDecimal(this object thisValue, decimal errorValue)
+        public static decimal TryToDecimal(this object thisValue, decimal errorValue)
         {
             decimal result = 0;
             if (thisValue != null && decimal.TryParse(thisValue.ToString(), out result))
@@ -185,7 +185,7 @@ namespace GrammarHelper
         /// </summary>
         /// <param name="thisValue"></param>
         /// <returns></returns>
-        public static DateTime ConvertToDate(this object thisValue)
+        public static DateTime TryToDate(this object thisValue)
         {
             DateTime reval = DateTime.MinValue;
             if (thisValue != null && DateTime.TryParse(thisValue.ToString(), out reval))
@@ -203,7 +203,7 @@ namespace GrammarHelper
         /// <param name="thisValue"></param>
         /// <param name="errorValue"></param>
         /// <returns></returns>
-        public static DateTime ConvertToDate(this object thisValue, DateTime errorValue)
+        public static DateTime TryToDate(this object thisValue, DateTime errorValue)
         {
             DateTime reval = DateTime.MinValue;
             if (thisValue != null && DateTime.TryParse(thisValue.ToString(), out reval))
@@ -221,7 +221,7 @@ namespace GrammarHelper
         /// </summary>
         /// <param name="list">集合</param>
         /// <returns></returns>
-        public static DataTable ConvertToDataTable<T>(this List<T> list)
+        public static DataTable TryToDataTable<T>(this List<T> list)
         {
             //创建一个table循环list集合
             DataTable result = new DataTable();
@@ -256,7 +256,7 @@ namespace GrammarHelper
         /// <typeparam name="T"></typeparam>
         /// <param name="dt"></param>
         /// <returns></returns>
-        public static List<T> ConvertToList<T>(this DataTable table) where T : class, new()
+        public static List<T> TryToList<T>(this DataTable table) where T : class, new()
         {
             List<T> list = new List<T>();
             try
@@ -294,7 +294,7 @@ namespace GrammarHelper
         /// </summary>
         /// <param name="stream"></param>
         /// <returns></returns>
-        public static byte[] ConvertToBytes(this Stream stream)
+        public static byte[] TryToBytes(this Stream stream)
         {
             byte[] bytes = new byte[stream.Length];
             stream.Read(bytes, 0, bytes.Length);
@@ -308,7 +308,7 @@ namespace GrammarHelper
         /// </summary>
         /// <param name="bytes"></param>
         /// <returns></returns>
-        public static Stream ConvertToStream(this byte[] bytes)
+        public static Stream TryToStream(this byte[] bytes)
         {
             Stream stream = new MemoryStream(bytes);
             return stream;
@@ -322,7 +322,7 @@ namespace GrammarHelper
         /// <typeparam name="T">指定的集合中泛型的类型</typeparam>
         /// <param name="gbList">需要转换的IList</param>
         /// <returns></returns>
-        public static List<T> ConvertIListToList<T>(this IList<T> gbList) where T : class   //静态方法，泛型转换，
+        public static List<T> TryIListToList<T>(this IList<T> gbList) where T : class   //静态方法，泛型转换，
         {
             if (gbList != null && gbList.Count >= 1)
             {
