@@ -16,3 +16,8 @@ E:\leo\自学\Code\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.csprojRes
 E:\leo\自学\Code\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.dll
 E:\leo\自学\Code\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.pdb
 E:\leo\自学\Code\GrammarHelper\GrammarHelper\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\leo\ClassHelper\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.dll
+F:\leo\ClassHelper\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.pdb
+F:\leo\ClassHelper\GrammarHelper\GrammarHelper\bin\Debug\GrammarHelper.dll
+F:\leo\ClassHelper\GrammarHelper\GrammarHelper\bin\Debug\GrammarHelper.pdb
+F:\leo\ClassHelper\GrammarHelper\GrammarHelper\bin\Debug\ICSharpCode.SharpZipLib.dll

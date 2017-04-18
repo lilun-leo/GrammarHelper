@@ -41,7 +41,6 @@ namespace GrammarHelper
             JavaScriptSerializer jsSerializer = new JavaScriptSerializer();
             return jsSerializer.Serialize(model);
         }
-
         #endregion
         /// <summary>
         /// 自定义查询对象转换动态类

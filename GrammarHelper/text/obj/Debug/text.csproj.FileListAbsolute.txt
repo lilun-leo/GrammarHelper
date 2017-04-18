@@ -25,3 +25,13 @@ E:\leo\自学\Code\GrammarHelper\text\obj\Debug\text.csprojResolveAssemblyRefere
 E:\leo\自学\Code\GrammarHelper\text\obj\Debug\text.dll
 E:\leo\自学\Code\GrammarHelper\text\obj\Debug\text.pdb
 E:\leo\自学\Code\GrammarHelper\text\bin\ICSharpCode.SharpZipLib.dll
+F:\leo\ClassHelper\GrammarHelper\text\obj\Debug\text.csprojResolveAssemblyReference.cache
+F:\leo\ClassHelper\GrammarHelper\text\obj\Debug\text.dll
+F:\leo\ClassHelper\GrammarHelper\text\obj\Debug\text.pdb
+F:\leo\ClassHelper\GrammarHelper\text\bin\text.dll.config
+F:\leo\ClassHelper\GrammarHelper\text\bin\text.dll
+F:\leo\ClassHelper\GrammarHelper\text\bin\text.pdb
+F:\leo\ClassHelper\GrammarHelper\text\bin\GrammarHelper.dll
+F:\leo\ClassHelper\GrammarHelper\text\bin\ICSharpCode.SharpZipLib.dll
+F:\leo\ClassHelper\GrammarHelper\text\bin\Newtonsoft.Json.dll
+F:\leo\ClassHelper\GrammarHelper\text\bin\GrammarHelper.pdb
