@@ -1,5 +1,5 @@
 ﻿using System;
-namespace SyntacticSugar
+namespace GrammarHelper
 {
     public abstract class IHttpStorageObject<V>
     {

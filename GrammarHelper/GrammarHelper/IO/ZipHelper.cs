@@ -17,7 +17,7 @@ namespace GrammarHelper.IO
         public class ZipClass
         {
             /// <summary>  
-            /// 所有文件缓存  
+            /// 所有文件缓存  GetDirectories
             /// </summary>  
             List<string> files = new List<string>();
 

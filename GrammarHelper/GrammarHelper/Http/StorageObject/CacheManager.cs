@@ -7,7 +7,7 @@ using System.Web.Caching;
 using System.Collections;
 using System.Linq.Expressions;
 
-namespace SyntacticSugar
+namespace GrammarHelper
 {
     /// <summary>
     /// ** 描述：缓存操作类
