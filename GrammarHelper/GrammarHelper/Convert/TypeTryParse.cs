@@ -288,6 +288,51 @@ namespace GrammarHelper
         }
         #endregion
 
+        /// <summary>  
+        /// table指定行转对象  
+        /// </summary>  
+        /// <typeparam name="T">实体</typeparam>  
+        /// <param name="dt">传入的表格</param>  
+        /// <param name="rowindex">table行索引，默认为第一行</param>  
+        /// <returns>返回实体对象</returns>  
+        public static T TableToEntity<T>(DataTable dt, int rowindex = 0, bool isStoreDB = true)
+        {
+            Type type = typeof(T);
+            T entity = Activator.CreateInstance<T>(); //创建对象实例  
+            if (dt == null)
+            {
+                return entity;
+            }
+            //if (dt != null)  
+            //{  
+            DataRow row = dt.Rows[rowindex]; //要查询的行索引  
+            PropertyInfo[] pArray = type.GetProperties();
+            foreach (PropertyInfo p in pArray)
+            {
+                if (!dt.Columns.Contains(p.Name) || row[p.Name] == null || row[p.Name] == DBNull.Value)
+                {
+                    continue;
+                }
+
+                if (isStoreDB && p.PropertyType == typeof(DateTime) && Convert.ToDateTime(row[p.Name]) < Convert.ToDateTime("1753-01-02"))
+                {
+                    continue;
+                }
+                try
+                {
+                    var obj = Convert.ChangeType(row[p.Name], p.PropertyType);//类型强转，将table字段类型转为对象字段类型  
+                    p.SetValue(entity, obj, null);
+                }
+                catch (Exception)
+                {
+                    // throw;  
+                }
+                // p.SetValue(entity, row[p.Name], null);                     
+            }
+            //  }  
+            return entity;
+        }
+
         #region IO 转换
         /// <summary>
         /// 将流转成btye

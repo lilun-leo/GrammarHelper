@@ -23,4 +23,3 @@ F:\leo\ClassHelper\GrammarHelper\GrammarHelper\bin\Debug\GrammarHelper.pdb
 F:\leo\ClassHelper\GrammarHelper\GrammarHelper\bin\Debug\ICSharpCode.SharpZipLib.dll
 F:\leo\ClassHelper\GrammarHelper\GrammarHelper\bin\Debug\GrammarHelper.xml
 F:\leo\ClassHelper\GrammarHelper\GrammarHelper\bin\Debug\Newtonsoft.Json.dll
-F:\leo\ClassHelper\GrammarHelper\GrammarHelper\obj\Debug\GrammarHelper.csprojResolveAssemblyReference.cache

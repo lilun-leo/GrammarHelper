@@ -12,13 +12,7 @@ using System.Collections.Specialized;
 namespace GrammarHelper
 {
 
-    /// <summary>
-    /// ** 描述：模拟HTTP POST GET请求并获取数据
-    /// ** 创始时间：2015-11-24
-    /// ** 修改时间：-
-    /// ** 作者：sunkaixuan
-    /// ** 使用说明：
-    /// </summary>
+ 
     public class WebRequestSugar
     {
         /// <summary>

@@ -12,6 +12,10 @@ namespace text.Form
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
             UploadImage ui = new UploadImage();
 
             /***可选参数***/
@@ -47,6 +51,7 @@ namespace text.Form
             /*test*/
             Image1.ImageUrl = reponseMessage.WebPath;
             Image2.ImageUrl = reponseMessage2.WebPath;
+
         }
     }
 }
